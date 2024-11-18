@@ -1,0 +1,1 @@
+let hamburger=document.querySelector(".hamburger"),menu=document.querySelector(".menu");hamburger.addEventListener("click",e=>{e.stopPropagation(),menu.classList.toggle("active")}),document.addEventListener("click",e=>{menu.contains(e.target)||hamburger.contains(e.target)||menu.classList.remove("active")});

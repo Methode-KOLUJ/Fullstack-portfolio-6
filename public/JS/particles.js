@@ -1,0 +1,1 @@
+particlesJS("particles-js",{particles:{number:{value:80,density:{enable:!0,value_area:1e3}},color:{value:"#ffffff"},shape:{type:"circle"},opacity:{value:1,random:!1},size:{value:10,random:!0},move:{enable:!0,speed:3,direction:"top",straight:!1,out_mode:"out"}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!1},onclick:{enable:!1}}},retina_detect:!0});

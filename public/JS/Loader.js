@@ -1,0 +1,1 @@
+anime({targets:".ball",translateY:[{value:-70,duration:400,easing:"easeOutQuad"},{value:0,duration:500,easing:"easeInQuad"}],delay:anime.stagger(190),loop:!0}),setTimeout(()=>{let e=document.getElementById("loading-overlay");e.style.transition="opacity 0.8s ease",e.style.opacity="0",setTimeout(()=>{e.style.display="none",document.body.style.overflow="auto"},100)},9e3);
